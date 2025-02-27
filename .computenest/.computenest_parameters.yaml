@@ -1,5 +1,5 @@
 ChartValues:
-  fluidapp:
+  dataset:
     resources:
       requests:
         memory: 256Mi

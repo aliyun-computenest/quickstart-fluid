@@ -502,14 +502,7 @@ Outputs:
     Description:
       zh-cn: 使用说明
       en: Instruction
-    Value:
-      Fn::Sub:
-        - |
-          ${OutputData}
-        - OutputData:
-            Fn::GetAtt:
-              - FluxHelmApplicationModule
-              - HelmOutput
+    Value: 使用方式请查看：https://github.com/fluid-cloudnative/fluid/blob/master/docs/zh/userguide/install.md
   UpdateDesc:
     Description:
       zh-cn: 更新说明
